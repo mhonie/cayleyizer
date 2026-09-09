@@ -1,0 +1,8 @@
+/usr/local/src/cayleyizer/build/CMakeFiles/Cayleyizer.dir
+/usr/local/src/cayleyizer/build/CMakeFiles/cayleyizer_test.dir
+/usr/local/src/cayleyizer/build/CMakeFiles/cayleyizer.dir
+/usr/local/src/cayleyizer/build/CMakeFiles/run_cpp_test.dir
+/usr/local/src/cayleyizer/build/CMakeFiles/run_python_test.dir
+/usr/local/src/cayleyizer/build/CMakeFiles/test.dir
+/usr/local/src/cayleyizer/build/CMakeFiles/edit_cache.dir
+/usr/local/src/cayleyizer/build/CMakeFiles/rebuild_cache.dir
