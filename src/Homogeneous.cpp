@@ -44,42 +44,16 @@ bool Homogeneous::Compare
 
 	const std::multiset<DEGREES_BY_COLOR> otherDegreeSequence = otherNeighborhood->DegreeSequences();
 
-	bool areIsomorphic;
+	bool areIsomorphic = false;
 
 	if (degreeSequence == otherDegreeSequence)
 	{
 		std::vector<std::shared_ptr<Edge>> edges = neighborhood->Edges();
- 
-		std::vector<std::shared_ptr<Edge>> otherEdges = neighborhood->Edges();
 
-		// TODO: compare unique edges
-		
-		// std::vector<std::shared_ptr<Edge>> uniqueEdges;
-		// 
-		// std::set_difference
-		// (
-		// 	edges.begin(),
-		// 	edges.end(),
-		// 	otherEdges.begin(),
-		// 	otherEdges.end(),
-		// 	std::back_inserter(uniqueEdges)
-		// );
-		// 
-		// std::vector<std::shared_ptr<Edge>> otherUniqueEdges;
-		// 
-		// std::set_difference
-		// (
-		// 	otherEdges.begin(),
-		// 	otherEdges.end(), 
-		// 	edges.begin(),
-		// 	edges.end(),
-		// 	std::back_inserter(otherUniqueEdges)
-		// );
+		std::vector<std::shared_ptr<Edge>> otherEdges =	otherNeighborhood->Edges();
 
 		areIsomorphic = Isomorphic::Test(edges, otherEdges);
 	}
-
-	areIsomorphic = false;
 
 	isomorphismTests.insert(std::pair<NEIGHBORHOOD_PAIR, bool>
 	{
@@ -263,7 +237,7 @@ std::optional<bool> Homogeneous::Test(Graph& graph)
 
 	if (isHomogeneous)
 
-		return std::nullopt;
-
-	return true;
+		return true;
+	
+	return false;
 }
