@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/usr/local/src/cayleyizer/Build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

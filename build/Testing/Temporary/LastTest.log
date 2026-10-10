@@ -1,0 +1,399 @@
+Start testing: Oct 09 23:26 EDT
+----------------------------------------------------------
+1/2 Testing: cpp_test
+1/2 Test: cpp_test
+Command: "/usr/local/src/cayleyizer/build/cayleyizer_test"
+Directory: /usr/local/src/cayleyizer/build
+"cpp_test" start time: Oct 09 23:26 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"cpp_test" end time: Oct 09 23:26 EDT
+"cpp_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: python_test
+2/2 Test: python_test
+Command: "/snap/cmake/1562/bin/cmake" "-E" "env" "PYTHONPATH=/usr/local/src/cayleyizer/build/python" "/usr/bin/python3.6m" "/usr/local/src/cayleyizer/python/test.py"
+Directory: /usr/local/src/cayleyizer/build
+"python_test" start time: Oct 09 23:26 EDT
+Output:
+----------------------------------------------------------
+vertex count: 10
+edge count: 20
+===============================================================
+
+======================== DISCREPANCIES ========================
+
+	DISCONNECTED:   
+
+
+	IRREGULARITIES: 
+
+
+	DIFFERENCES:    
+
+	NO INNER FORWARD DIFFERENCES
+
+	NO INNER REVERSE DIFFERENCES
+
+	NO OUTER FORWARD DIFFERENCES
+
+	NO OUTER REVERSE DIFFERENCES
+
+======================== GRAPH SUMMARY ========================
+
+	IsEmpty:        false 
+
+	IsSingleton:    false 
+
+	IsCyclic:       false 
+
+	IsConnected:    maybe 
+	IsRegular:      true  
+	IsHomogeneous:  true  
+
+	IsCayley:       false 
+
+===============================================================
+
+======================== DISCREPANCIES ========================
+
+	DISCONNECTED:   
+
+
+	IRREGULARITIES: 
+
+	0
+		BLUE   :  -1   0
+	2
+		BLUE   :   0  -1
+
+	DIFFERENCES:    
+
+	INNER FORWARD DIFFERENCES: 
+
+	1 - 0
+		BLUE   :   0   1
+	2 - 0
+		BLUE   :   0   1
+	3 - 0
+		BLUE   :   0   1
+	3 - 2
+		BLUE   :   1   0
+	4 - 0
+		BLUE   :   0   1
+	4 - 2
+		BLUE   :   1   0
+	5 - 0
+		BLUE   :   0   1
+	5 - 2
+		BLUE   :   1   0
+	6 - 0
+		BLUE   :   0   1
+	6 - 2
+		BLUE   :   1   0
+	7 - 0
+		BLUE   :   0   1
+	7 - 2
+		BLUE   :   1   0
+	8 - 0
+		BLUE   :   0   1
+	8 - 2
+		BLUE   :   1   0
+	9 - 0
+		BLUE   :   0   1
+	9 - 2
+		BLUE   :   1   0
+
+	INNER REVERSE DIFFERENCES: 
+
+	2 - 0
+		BLUE   :   1   0
+	2 - 1
+		BLUE   :   1   0
+
+	OUTER FORWARD DIFFERENCES: 
+
+	3 - 1
+		4 - 2
+	4 - 1
+		0 - 3
+	5 - 1
+		6 - 9
+	6 - 1
+		7 - 5
+	7 - 1
+		8 - 6
+	8 - 1
+		9 - 7
+	9 - 1
+		5 - 8
+
+	NO OUTER REVERSE DIFFERENCES
+
+======================== GRAPH SUMMARY ========================
+
+	IsEmpty:        false 
+
+	IsSingleton:    false 
+
+	IsCyclic:       false 
+
+	IsConnected:    maybe 
+	IsRegular:      false 
+	IsHomogeneous:  false 
+
+	IsCayley:       false 
+
+===============================================================
+
+======================== DISCREPANCIES ========================
+
+	DISCONNECTED:   
+
+
+	IRREGULARITIES: 
+
+	0
+		BLUE   :   0  -1
+	2
+		BLUE   :  -1   0
+
+	DIFFERENCES:    
+
+	INNER FORWARD DIFFERENCES: 
+
+	1 - 0
+		BLUE   :   1   0
+	2 - 0
+		BLUE   :   1   0
+	3 - 0
+		BLUE   :   1   0
+	3 - 2
+		BLUE   :   0   1
+	4 - 0
+		BLUE   :   1   0
+	4 - 2
+		BLUE   :   0   1
+	5 - 0
+		BLUE   :   1   0
+	5 - 2
+		BLUE   :   0   1
+	6 - 0
+		BLUE   :   1   0
+	6 - 2
+		BLUE   :   0   1
+	7 - 0
+		BLUE   :   1   0
+	7 - 2
+		BLUE   :   0   1
+	8 - 0
+		BLUE   :   1   0
+	8 - 2
+		BLUE   :   0   1
+	9 - 0
+		BLUE   :   1   0
+	9 - 2
+		BLUE   :   0   1
+
+	INNER REVERSE DIFFERENCES: 
+
+	2 - 0
+		BLUE   :   0   1
+	2 - 1
+		BLUE   :   0   1
+
+	OUTER FORWARD DIFFERENCES: 
+
+	3 - 1
+		2 - 4
+	4 - 1
+		3 - 0
+	5 - 1
+		9 - 6
+	6 - 1
+		5 - 7
+	7 - 1
+		6 - 8
+	8 - 1
+		7 - 9
+	9 - 1
+		8 - 5
+
+	NO OUTER REVERSE DIFFERENCES
+
+======================== GRAPH SUMMARY ========================
+
+	IsEmpty:        false 
+
+	IsSingleton:    false 
+
+	IsCyclic:       false 
+
+	IsConnected:    maybe 
+	IsRegular:      false 
+	IsHomogeneous:  false 
+
+	IsCayley:       false 
+
+===============================================================
+
+======================== DISCREPANCIES ========================
+
+	DISCONNECTED:   
+
+
+	IRREGULARITIES: 
+
+
+	DIFFERENCES:    
+
+	NO INNER FORWARD DIFFERENCES
+
+	NO INNER REVERSE DIFFERENCES
+
+	NO OUTER FORWARD DIFFERENCES
+
+	NO OUTER REVERSE DIFFERENCES
+
+======================== GRAPH SUMMARY ========================
+
+	IsEmpty:        false 
+
+	IsSingleton:    false 
+
+	IsCyclic:       false 
+
+	IsConnected:    maybe 
+	IsRegular:      true  
+	IsHomogeneous:  true  
+
+	IsCayley:       false 
+
+===============================================================
+
+======================== DISCREPANCIES ========================
+
+	DISCONNECTED:   
+
+	a
+
+	IRREGULARITIES: 
+
+
+	DIFFERENCES:    
+
+	INNER FORWARD DIFFERENCES: 
+
+	a - 0
+		RED    :   1   1
+		YELLOW :   1   1
+	a - 1
+		RED    :   1   1
+		YELLOW :   1   1
+	a - 2
+		RED    :   1   1
+		YELLOW :   1   1
+	a - 3
+		RED    :   1   1
+		YELLOW :   1   1
+	a - 4
+		RED    :   1   1
+		YELLOW :   1   1
+	a - 5
+		RED    :   1   1
+		YELLOW :   1   1
+	a - 6
+		RED    :   1   1
+		YELLOW :   1   1
+	a - 7
+		RED    :   1   1
+		YELLOW :   1   1
+	a - 8
+		RED    :   1   1
+		YELLOW :   1   1
+	a - 9
+		RED    :   1   1
+		YEL
+ORIGINAL GRAPH
+
+AFTER ADD EDGE
+
+AFTER FLIP EDGE
+
+AFTER DELETE EDGE
+
+AFTER ADD VERTEX
+
+AFTER DELETE VERTEX
+
+ALL GRAPH UPDATER TESTS PASSED
+LOW :   1   1
+
+	NO INNER REVERSE DIFFERENCES
+
+	NO OUTER FORWARD DIFFERENCES
+
+	NO OUTER REVERSE DIFFERENCES
+
+======================== GRAPH SUMMARY ========================
+
+	IsEmpty:        false 
+
+	IsSingleton:    false 
+
+	IsCyclic:       false 
+
+	IsConnected:    false 
+	IsRegular:      true  
+	IsHomogeneous:  true  
+
+	IsCayley:       maybe 
+
+===============================================================
+
+======================== DISCREPANCIES ========================
+
+	DISCONNECTED:   
+
+
+	IRREGULARITIES: 
+
+
+	DIFFERENCES:    
+
+	NO INNER FORWARD DIFFERENCES
+
+	NO INNER REVERSE DIFFERENCES
+
+	NO OUTER FORWARD DIFFERENCES
+
+	NO OUTER REVERSE DIFFERENCES
+
+======================== GRAPH SUMMARY ========================
+
+	IsEmpty:        false 
+
+	IsSingleton:    false 
+
+	IsCyclic:       false 
+
+	IsConnected:    maybe 
+	IsRegular:      true  
+	IsHomogeneous:  true  
+
+	IsCayley:       false 
+
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"python_test" end time: Oct 09 23:26 EDT
+"python_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 09 23:26 EDT

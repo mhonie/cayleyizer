@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/cayleyizer_test.dir/test/test.cpp.o -o cayleyizer_test  libCayleyizer.a /usr/local/src/igraph-0.10.15/build/src/libigraph.a
