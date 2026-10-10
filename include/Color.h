@@ -8,19 +8,13 @@
 //
 enum class COLOR
 {
-	//
-	NONE,
-
-	//
+	WHITE,
 	RED,
 	ORANGE,
 	YELLOW,
 	GREEN,
 	BLUE,
-	VIOLET,
-
-	//
-	COLOR_COUNT
+	VIOLET
 };
 
 //

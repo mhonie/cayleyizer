@@ -11,9 +11,9 @@ std::string Colors::ToString(const COLOR color)
 {
 	switch (color)
 	{
-		case COLOR::NONE:
-			return "NONE";
-
+		case COLOR::WHITE:
+			return "WHITE";
+		
 		case COLOR::RED:
 			return "RED";
 
@@ -31,15 +31,6 @@ std::string Colors::ToString(const COLOR color)
 
 		case COLOR::YELLOW:
 			return "YELLOW";
-
-		case COLOR::COLOR_COUNT:
-		{
-			constexpr int colorCount = 
-				
-				static_cast<int>(COLOR::COLOR_COUNT);
-
-			return std::to_string(colorCount);
-		}
 	}
 
 	return {};

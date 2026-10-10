@@ -26,7 +26,6 @@ sudo c++ -O3 -Wall -shared -std=c++17 -fPIC \
 PYBIND11_MODULE(cayleyizer, mod)
 {
     pybind11::enum_<COLOR>(mod, "COLOR")
-        .value("NONE", COLOR::NONE)
         .value("RED", COLOR::RED)
         .value("BLUE", COLOR::BLUE)
         .value("GREEN", COLOR::GREEN)

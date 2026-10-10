@@ -12,7 +12,7 @@ Edge::Edge()
 	tail = 0;
 	head = 0;
 
-	color = COLOR::NONE;
+	color = COLOR::WHITE;
 }
 
 //
@@ -30,7 +30,7 @@ Edge::Edge(const char tail, const char head)
 	this->tail = tail;
 	this->head = head;
 
-	color = COLOR::NONE;
+	color = COLOR::WHITE;
 }
 
 //
@@ -204,7 +204,6 @@ std::vector<std::shared_ptr<Edge>>
 		return incidents;
 	}
 
-//
 //
 std::function<std::vector<std::shared_ptr<Edge>>(std::vector<std::shared_ptr<Edge>>, char)>
 
@@ -428,10 +427,6 @@ namespace
 		}
 		else
 		{
-			std::vector<std::shared_ptr<Edge>>
-
-				edgesAtColor = edgesByColor[color];
-
 			edgesByColor[color].push_back(edge);
 		}
 
