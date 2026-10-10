@@ -217,7 +217,7 @@ Graph GraphUpdater::DeleteEdges(const std::vector<std::shared_ptr<Edge>>& edges)
 
 	for (const std::shared_ptr<Edge>& edge : edges)
 
-		newGraph = DeleteEdge(edge);
+		newGraph = GraphUpdater(newGraph).DeleteEdge(edge);
 
 	return newGraph;
 }
@@ -286,7 +286,7 @@ Graph GraphUpdater::FlipEdges(const std::vector<std::shared_ptr<Edge>>& edges)
 
 	for (const std::shared_ptr<Edge>& edge : edges)
 
-		newGraph = FlipEdge(edge);
+		newGraph = GraphUpdater(newGraph).FlipEdge(edge);
 
 	return newGraph;
 }
@@ -364,7 +364,7 @@ Graph GraphUpdater::AddVertices(const std::set<char>& elements)
 
     for (const char element : elements)
 
-        newGraph = AddVertex(element);
+        newGraph = GraphUpdater(newGraph).AddVertex(element);
 
     return newGraph;
 }
@@ -439,7 +439,7 @@ Graph GraphUpdater::DeleteVertices(const std::vector<std::shared_ptr<Vertex>>& v
 
 	for (const std::shared_ptr<Vertex>& vertex : vertices)
 
-		newGraph = DeleteVertex(vertex);
+		newGraph = GraphUpdater(newGraph).DeleteVertex(vertex);
 
 	return newGraph;
 }
