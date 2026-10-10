@@ -237,7 +237,7 @@ std::optional<bool> Homogeneous::Test(Graph& graph)
 
 	if (isHomogeneous)
 
-		return true;
+		return std::nullopt;
 	
 	return false;
 }
